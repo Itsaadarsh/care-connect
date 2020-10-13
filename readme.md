@@ -1,40 +1,60 @@
 <h1 align="center">
-🌐 CareConnect
+🌐 Care Connect
 </h1>
 <p align="center">
 MongoDB, Expressjs, React, Nodejs
 </p>
 
-> MERN is a fullstack implementation in MongoDB, Expressjs, React, Nodejs, SocketIO
+> MERN is a fullstack implementation in MongoDB, Expressjs, React, Nodejs,
+> SocketIO
 
 MERN stack is the idea of using TypeScript/Node for fullstack web development.
+
+## Tech Stack
+
+- Typescript
+- MongoDB
+- React
+- Express
+- NodeJS
+- Socketio
+- RESTFUL API's
+- Heroku
+- YARN
+- Postman
 
 ## clone or download
 
 ```terminal
-$ git clone https://github.com/amazingandyyy/mern.git
+$ git clone https://github.com/smitbarmase/care-connect.git
 $ yarn install
 ```
 
 ## project structure
 
 ```terminal
-LICENSE
-README.md
-server/
-   dist/
-   src/
-   .gitignore
-   package.json
-   tsconfig.json
-   yarn.lock
 client/
    public/
    src/
    .gitignore
    package.json
+   readme.md
    tsconfig.json
    yarn.lock
+dist/
+screentshots/
+ml-model/
+src/
+   auth/
+   models/
+   routes/
+   index.ts
+.gitignore
+LICENSE
+package.json
+readme.md
+tsconfig.json
+yarn.lock
 ...
 ```
 
@@ -46,7 +66,8 @@ client/
 - [Node](https://nodejs.org/en/) ^10.0.0
 - [yarn](https://yarnpkg.com/)
 
-notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
+notice, you need client and server runs concurrently in different terminal
+session, in order to make them talk to each other
 
 ## Client-side usage(PORT: 3000)
 
@@ -87,11 +108,11 @@ $ yarn run deploy:heroku
 | Client-side                   | Server-side              |
 | ----------------------------- | ------------------------ |
 | axios: ^0.15.3                | "bcrypt": "^5.0.0"       |
-| babel-preset-stage-1: ^6.1.18 | "body-parser": "^1.19.0" |
-| lodash: ^3.10.1               | "express": "^4.17.1"     |
+| react-hook-form": "^6.9.2"    | "body-parser": "^1.19.0" |
+| styled-components": "^5.2.0"  | "express": "^4.17.1"     |
 | react: ^16.2.0                | "jsonwebtoken": "^8.5.1" |
 | react-dom: ^16.2.0            | "mongoose": "^5.10.7"    |
-| react-redux: ^4.0.0           | "morgan": "^1.10.0"      |
+| recharts": "^1.8.5"           | "morgan": "^1.10.0"      |
 | react-router-dom: ^4.2.2      | "socket .io": "^2.3.0"   |
 | socketio-client: "^2.3.1"     | "concurrently": "^5.3.0" |
 | "typescript": "^4.0.3"        | "typescript": "^4.0.3"   |
